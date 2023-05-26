@@ -17,6 +17,7 @@
     "react-redux": "^8.0.5",
     "react-router": "^6.4.1",
     "react-router-dom": "^6.8.2",
+    "util": "^0.12.5",
     "uuidv4": "^6.2.13"
   },
   "scripts": {
@@ -47,6 +48,6 @@
     "@testing-library/user-event": "^14.4.3",
     "@types/jest": "^29.4.0",
     "nodemon": "^2.0.21",
-    "react-scripts": "^4.0.3"
+    "react-scripts": "^5.0.1"
   }
 }

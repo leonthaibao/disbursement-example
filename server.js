@@ -6,7 +6,7 @@ const morgan = require("morgan");
 const { uuid } = require("uuidv4");
 const crypto = require("crypto-js");
 const rsa = require("node-rsa");
-const { validatePhone, validateAmount } = require("../src/app/util/helpers");
+const { validatePhone, validateAmount } = require("./src/app/util/helpers");
 
 // init app
 const app = express();
