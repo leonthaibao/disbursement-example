@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { topup, queryPaymentStatus } from "../../app/paymentSlice";
-import { uuid } from "uuidv4";
+import { v4 as uuid } from "uuid";
 import { formatVND } from "../../app/util/helpers";
 
 export const ConfirmContainer = () => {
