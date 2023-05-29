@@ -97,6 +97,7 @@ app.post(`${API_BASE_PATH}/disbursement/balance`, async (req, res) => {
     const time = Date.now();
     const message = [appId, paymentId, time].join("|");
     const mac = crypto.HmacSHA256(message, process.env.REACT_APP_KEY1).toString();
+    console.log(`${appId}---${paymentId}---${time}---${mac}`)
     const response = await fetch(`${SANDBOX_URL}/v2/disbursement/balance`, {
       method: "POST",
       headers: {
